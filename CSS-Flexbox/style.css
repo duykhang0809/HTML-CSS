@@ -1,0 +1,39 @@
+.flex-container {
+    background-color: #ccc;
+    height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    
+    align-content: center;
+    
+}
+
+.flex-item {
+    /* padding: 30px; */
+    background: orangered;
+    font-weight: bold;
+    color: #fff;
+    font-size: 40px;
+    border: 1px solid blue;
+    height: 150px;
+}
+
+.item1{
+    /* flex-basis: 150px;
+    flex-shrink: 1; */
+    height: 300px;
+    
+}
+.item5{
+    align-self: flex-end;
+    order: 0.5;
+}
+.item2{
+    order: 1;
+}
+
+
+
+
